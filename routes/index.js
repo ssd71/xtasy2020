@@ -63,12 +63,12 @@ router.get("/login", function (req, res, next) {
 });
 
 router.get('/resetpassword/:resetRequestID', function(req, res) {
-	res.render('resetpassword');
+	res.render('resetPassword');
 })
 
 /* GET resetPassword page. */
-router.get("/resetPassword", function (req, res, next) {
-  res.render("resetPassword");
+router.get("/forgotpassword", function (req, res, next) {
+  res.render("forgotpassword");
 });
 
 /*GET admin page*/
